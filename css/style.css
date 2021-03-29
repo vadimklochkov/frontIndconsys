@@ -4,6 +4,16 @@
 .firstText{
     text-align: center;
 }
+
+/* ссылки на svg */
+.svg1{
+    height: 100%;
+    background-image: url(./svg/svg1.svg);
+    background-size:100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size:cover;
+ }
 .a1{
     font-family: Arial;
     font-style: normal;
@@ -110,6 +120,21 @@
 }
 .iconFor1 a{
     margin-left: -10%;
+}
+.iconFor1 div{
+    width: 200%;
+    background-size: 45px;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-left: -10%;
+    /* 1 */
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+
+    color: rgba(0, 0, 0, 0.08);
+
 }
 .iconFor1 .svg{
     width: 100px; 
