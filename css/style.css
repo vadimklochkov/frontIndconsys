@@ -1,0 +1,135 @@
+.bgFon{
+    background-color: #f5f5f4;
+}
+.firstText{
+    text-align: center;
+}
+.a1{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #0F306F;
+
+}
+.a2{
+    width: 818px;
+    height: 21px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #4B0048;
+
+}
+.a3{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #0F306F;
+}
+.a4{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+
+    color: #4B0048;
+}
+.itemSecond p{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+/* флекс для 1 блока */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 96%; /* макс ширина */
+    margin: 0 auto; /* выровняем по центру */
+}
+
+.item{
+    flex:1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
+    margin:5px;
+    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+    min-width:32%; /* мин. ширина блока, чтобы переносились на другой ряд */
+
+    padding:50px 20px; 
+}
+
+/* флекс для текста и img в 1 блоке */
+.flexFor1{
+    display: flex;
+    text-align: left;
+
+}
+.itemFor1First{
+    flex:1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
+    margin:5px;
+    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+    min-width:20%; /* мин. ширина блока, чтобы переносились на другой ряд */
+
+}
+.itemFor1Second{
+    flex:1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
+    margin:5px;
+    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+    min-width:80%; /* мин. ширина блока, чтобы переносились на другой ряд */
+}
+/* расположение внутри 1 элемента */
+.itemFor1First a{
+    /* 1 */
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+
+    color: rgba(0, 0, 0, 0.08);
+}
+.iconFor1{
+    display: flex;
+}
+.iconFor1 a{
+    margin-left: -10%;
+}
+.iconFor1 .svg{
+    width: 100px; 
+    margin-left: -10%;
+    margin-top: -30px;
+}
+/* нижний флекс */
+.flexSecond{
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 75%; /* макс ширина */
+    margin: 0 auto; /* выровняем по центру */
+}
+
+.itemSecond{
+    flex:1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
+    margin:5px;
+    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+    min-width:25%; /* мин. ширина блока, чтобы переносились на другой ряд */
+
+    padding:50px 20px; 
+}
