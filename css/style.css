@@ -155,14 +155,11 @@
     margin-right: 10%;
 }
 @media (max-width: 1080px){
-    .flexSecond{
-        display: block;
-    }
     .item{
         min-width: 33%;
     }
     .itemSecond{
-        display: flex;
+        min-width: 50%;
     }
     .itemSecond p{
         text-align: left;
