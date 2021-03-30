@@ -154,3 +154,26 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+@media (max-width: 1080px){
+    .flexSecond{
+        display: block;
+    }
+    .item{
+        min-width: 33%;
+    }
+    .itemSecond{
+        display: flex;
+    }
+    .itemSecond p{
+        text-align: left;
+        padding-left: 5%;
+    }
+}
+@media (max-width: 600px){
+    .item{
+        min-width: 50%;
+    }
+    .iconFor1{
+        width: 75%;
+    }
+}
