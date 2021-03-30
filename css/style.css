@@ -161,10 +161,6 @@
     .itemSecond{
         min-width: 50%;
     }
-    .itemSecond p{
-        text-align: left;
-        padding-left: 5%;
-    }
 }
 @media (max-width: 600px){
     .item{
