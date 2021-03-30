@@ -4,7 +4,6 @@
 .firstText{
     text-align: center;
 }
-
 .a1{
     font-family: Arial;
     font-style: normal;
@@ -148,4 +147,10 @@
     min-width:25%; /* мин. ширина блока, чтобы переносились на другой ряд */
 
     padding:50px 20px; 
+}
+
+
+.aDiv{
+    margin-left: 10%;
+    margin-right: 10%;
 }
